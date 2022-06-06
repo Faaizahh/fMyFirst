@@ -1,171 +1,191 @@
-body{
+body {
     text-align: center;
     font-size: 14px;
     background-color: hsl(218, 28%, 13%);
-    margin:0;
-    padding:0;
-    font-family:"Open Sans";
-    color:#ffffff;
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
 }
 
-.headings{
-    font-weight: 400,700;
+.headings {
+    font-weight: 400, 700;
 }
 
-#box{
+#box {
     background-color: aqua;
-    width:;
-    height:50px;
+    height: 50px;
     text-align: center;
     border-radius: 25px;
 }
 
-.div{
-    margin:100px;
+.div {
+    margin: 100px;
 }
 
-.footer{
-    background-color:hsl(216, 53%, 9%)
+.footer {
+    background-color: hsl(216, 53%, 9%)
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-#a{
-    color:aqua;
+#a {
+    color: aqua;
     border-bottom: 20px;
-    border-bottom-color: aqua;;
+    border-bottom-color: aqua;
+    ;
 }
 
-.input{
+.input {
     background-color: aqua;
     text-align: center;
-    height:30px;
-    border-radius:15px;
-    color:#ffffff;
+    height: 30px;
+    border-radius: 15px;
+    color: #ffffff;
 }
 
-.comments{
-   background-color: hsl(219,30%, 18%);
-   margin:30px;
+.comments {
+    background-color: hsl(219, 30%, 18%);
+    margin: 30px;
 }
 
-.inputs{
-    text-align:center;
-    border-radius:20px;
-    height:40px;
-    display:block;
+.inputs {
+    text-align: center;
+    border-radius: 20px;
+    height: 40px;
+    display: block;
 }
 
-#started{
+#started {
     background-color: aqua;
-    margin:10px;
+    margin: 10px;
     margin-left: 0;
-    margin-bottom:30px;
+    margin-bottom: 30px;
 }
 
-#email{
+#email {
     background-color: #ffffff;
-    
+
 }
 
-#earlyaccess{
-    margin-bottom:50px;
-    background:linear-gradient(top, hsl(176,68%,64%) , hsk(198, 60%, 50%))
+#earlyaccess {
+    margin-bottom: 50px;
+    background: linear-gradient(top, hsl(176, 68%, 64%), hsk(198, 60%, 50%))
 }
 
-.ceo{
-   display:flex;
-   justify-content: center;
+.ceo {
+    display: flex;
+    justify-content: center;
 }
 
-.ceos{
-    width:30px;
-    height:30px;
-    border-radius:15px;
+.ceos {
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
     margin-left: 10px;
 }
 
-.ceo h3{
+.ceo h3 {
     font-size: 12px;
     margin-top: 5px;
     margin-bottom: 0px;
 }
 
-.ceo p{
+.ceo p {
     font-size: 11px;
-    margin-top:0px;
+    margin-top: 0px;
 }
 
 
-   
 
-#email{
-    background-color:#fff;
-    color:#000;
-    width:300px;
-    height:50px;
-    border-radius:40px;
-    margin:10px;
-    text-align:center;
+
+#email {
+    background-color: #fff;
+    color: #000;
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 10px;
+    text-align: center;
 }
-#get{
+
+#get {
     background-color: aqua;
-align-self: center;
-width:300px;
-height:50px;
-border-radius:40px;
-margin:10px;
-text-align:center;
+    align-self: center;
+    width: 300px;
+    height: 50px;
+    border-radius: 40px;
+    margin: 10px;
+    text-align: center;
 }
-.earlyaccess{
-    display:flex;
-    flex-flow:column;
-    min-width:960px;
-    flex-direction:column;
-    align-items:center;
-    justify-content:center;
+
+.earlyaccess {
+    display: flex;
+    flex-flow: column;
+    min-width: 960px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #333;
-    margin:20px;
+    margin: 20px;
 }
 
-.ole{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+.ole {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
 
-.ceo div{text-align: justify;}
+.ceo div {
+    text-align: justify;
+}
 
 /*nav decor*/
-nav{
-    display:flex;
+nav {
+    display: flex;
     justify-content: space-between;
-    position:relative;
+    position: relative;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-a{
-    text-decoration: none;}
-nav ul{
-list-style-type: none;
-color:#fff;
-display:flex;
-width:960;}
-nav a{
-    color:#fff;
-    display:block;
+
+a {
+    text-decoration: none;
 }
-nav li{
-    min-width:320px;
-    margin:0;
-    margin:0px 10px;
+
+nav ul {
+    list-style-type: none;
+    color: #fff;
+    display: flex;
 }
-li a{
+
+nav a {
+    color: #fff;
+}
+
+nav li {
+    /* /min-width: 320px; haba na 320px for what ?????? */
+    margin: 0px 30px;
+}
+
+li a {
     justify-content: end;
     align-items: center;
 }
-a:hover{
+
+a:hover {
     background-color: #555;
+}
+
+/* fawazs new styling */
+.get-started-btn {
+    background-color: hsl(198, 60%, 50%);
+    padding: 10px;
+    border-radius: 10px;
 }
